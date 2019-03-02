@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/talks" android:title="Talks"/>
+    <item android:id="@+id/concerts" android:title="Concerts"/>
+    <item android:id="@+id/exhibitions" android:title="Exhibitions"/>
+    <item android:id="@+id/workshops" android:title="Workshops"/>
+    <item android:id="@+id/contests" android:title="Contests"/>
+    <item android:id="@+id/sponsors" android:title="Sponsors"/>
+
+</menu>
