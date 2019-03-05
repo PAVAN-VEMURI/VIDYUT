@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import com.example.vidyut.Fragments.AccountFrag;
 import com.example.vidyut.Fragments.HomeFrag;
 import com.example.vidyut.Fragments.InfoFrag;
+import com.example.vidyut.Fragments.QrFragment;
 
 
 public class Dashboard extends AppCompatActivity {
@@ -20,6 +21,7 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
+
         bottomNavigationView.setOnNavigationItemSelectedListener(navigationItemSelectedListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_for_frags,new HomeFrag()).commit();
 
@@ -41,6 +43,10 @@ public class Dashboard extends AppCompatActivity {
 
                         case R.id.about:
                             selectedFrag = new InfoFrag();
+                            break;
+
+                        case R.id.qr:
+                            selectedFrag = new QrFragment();
                             break;
                     }
 
