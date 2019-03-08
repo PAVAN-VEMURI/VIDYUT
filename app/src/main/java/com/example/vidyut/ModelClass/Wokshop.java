@@ -2,26 +2,22 @@ package com.example.vidyut.ModelClass;
 
 public class Wokshop {
 
-    private String tittle;
-    private String description;
-    private String cost;
+    private String tittle,description,cost,time,date;
 
-    public Wokshop(String tittle, String description, String cost) {
+    public Wokshop(String tittle, String description, String cost,String time,String date) {
         this.tittle = tittle;
         this.description = description;
         this.cost = cost;
+        this.time = time;
+        this.date = date;
     }
 
-    public void setTittle(String tittle) {
-        this.tittle = tittle;
+    public String getTime() {
+        return "Time: "+time;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public void setCost(String cost) {
-        this.cost = cost;
+    public String getDate() {
+        return "Date: "+date;
     }
 
     public String getTittle() {
@@ -33,6 +29,6 @@ public class Wokshop {
     }
 
     public String getCost() {
-        return cost;
+        return "₹. "+cost;
     }
 }

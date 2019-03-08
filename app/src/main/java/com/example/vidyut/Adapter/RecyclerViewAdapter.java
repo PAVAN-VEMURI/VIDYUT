@@ -27,7 +27,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view;
-        view = LayoutInflater.from(context).inflate(R.layout.item_workshops,parent,false);
+        view = LayoutInflater.from(context).inflate(R.layout.item_registered,parent,false);
         MyViewHolder myViewHolder = new MyViewHolder(view);
         return myViewHolder;
     }
@@ -36,7 +36,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.tittle.setText(wokshopList.get(position).getTittle());
         holder.description.setText(wokshopList.get(position).getDescription());
-        holder.availability.setText(wokshopList.get(position).getCost());
+        holder.cost.setText(wokshopList.get(position).getCost());
+        holder.time.setText(wokshopList.get(position).getTime());
+        holder.date.setText(wokshopList.get(position).getDate());
 
     }
 
@@ -49,14 +51,15 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         private TextView tittle;
         private TextView description;
-        private TextView availability;
+        private TextView cost,time,date;
 
         public MyViewHolder(View itemView) {
             super(itemView);
             tittle = itemView.findViewById(R.id.workshop_tittle);
             description = itemView.findViewById(R.id.workshop_desc);
-            availability = itemView.findViewById(R.id.workshop_availability);
-
+            cost = itemView.findViewById(R.id.workshop_cost);
+            time = itemView.findViewById(R.id.workshop_time);
+            date = itemView.findViewById(R.id.workshop_dates);
         }
 
 

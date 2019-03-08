@@ -11,6 +11,7 @@ import com.example.vidyut.Fragments.AccountFrag;
 import com.example.vidyut.Fragments.HomeFrag;
 import com.example.vidyut.Fragments.InfoFrag;
 import com.example.vidyut.Fragments.QrFragment;
+import com.example.vidyut.Fragments.SchedulesFrag;
 
 
 public class Dashboard extends AppCompatActivity {
@@ -47,6 +48,9 @@ public class Dashboard extends AppCompatActivity {
 
                         case R.id.qr:
                             selectedFrag = new QrFragment();
+                            break;
+                        case R.id.schedules:
+                            selectedFrag = new SchedulesFrag();
                             break;
                     }
 

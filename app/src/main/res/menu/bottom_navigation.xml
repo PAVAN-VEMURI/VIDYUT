@@ -15,6 +15,11 @@
         android:title="Qr"
         android:icon="@drawable/ic_blur_on_black_24dp"
         />
+    <item
+        android:id="@+id/schedules"
+        android:title="Schedules"
+        android:icon="@drawable/ic_schedule_black_24dp"/>
+
 
     <item
         android:id="@+id/about"

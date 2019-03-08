@@ -43,12 +43,42 @@ public class AccountWorkshops extends Fragment {
         super.onCreate(savedInstanceState);
 
         wokshopList = new ArrayList<>();
-        wokshopList.add(new Wokshop("RC Aircraft Design","Ever seen an aircraft soar across the sky.","1100 "));
-        wokshopList.add(new Wokshop("RC Aircraft Design","Ever seen an aircraft soar across the sky.","1100 "));
-        wokshopList.add(new Wokshop("RC Aircraft Design","Ever seen an aircraft soar across the sky.","1100 "));
-        wokshopList.add(new Wokshop("RC Aircraft Design","Ever seen an aircraft soar across the sky.","1100 "));
-        wokshopList.add(new Wokshop("RC Aircraft Design","Ever seen an aircraft soar across the sky.","1100 "));
-        wokshopList.add(new Wokshop("RC Aircraft Design","Ever seen an aircraft soar across the sky.","1100 "));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
+        wokshopList.add(new Wokshop("Rc Aircraft",
+                "Ever seen an aircraft soar across the sky and wondered about its working? Then join Aerotrix RC Aircraft Workshop offered by Skyfi labs provides an opportunity to understand the theory behind the functioning of aircraft and aircraft designing. The workshop aims at transforming one's acquired knowledge to an innovative design of their own RC aircraft followed by its fabrication.",
+                "1100","09:00 - 16:00","8/3/2019"));
 
 
     }
