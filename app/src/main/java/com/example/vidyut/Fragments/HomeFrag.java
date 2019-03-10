@@ -37,7 +37,7 @@ public class HomeFrag extends Fragment {
     private void setSliderViews() {
 
         for(int i = 0; i<3; i++){
-            SliderView sliderView = new DefaultSliderView(getContext());
+            DefaultSliderView sliderView = new DefaultSliderView(getContext());
 
             switch (i) {
                 case 0:

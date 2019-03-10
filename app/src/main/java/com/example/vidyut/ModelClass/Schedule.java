@@ -6,12 +6,22 @@ public class Schedule {
     private String desc;
     private String date;
     private String time ;
+    private Timer timer;
 
-    public Schedule(String tittle, String desc, String date, String time) {
+    public Schedule(String tittle, String desc, String date, String time,Timer timer) {
         this.tittle = tittle;
         this.desc = desc;
         this.date = date;
         this.time = time;
+        this.timer = timer;
+    }
+
+    public Timer getTimer() {
+        return timer;
+    }
+
+    public void setTimer(Timer timer) {
+        this.timer = timer;
     }
 
     public String getTittle() {
@@ -45,4 +55,14 @@ public class Schedule {
     public void setTime(String time) {
         this.time = time;
     }
+
+    public String getTimeName() {
+        return timer.getTime();
+    }
+    public int getTimeId() {
+        return timer.getViewtype();
+    }
+
+
+
 }

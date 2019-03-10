@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Fragments.SchedulesFrag">
 
-    <android.support.v7.widget.RecyclerView
+    <com.jaychang.srv.SimpleRecyclerView
         android:id="@+id/schedule_recycler"
         android:layout_width="0dp"
         android:layout_height="0dp"
